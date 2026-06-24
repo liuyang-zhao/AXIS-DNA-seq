@@ -1,0 +1,32 @@
+# Copy to config.yaml and edit paths for your environment.
+
+repo_root: /path/to/AXIS-DNA-seq
+project_dir: /path/to/your_project
+
+genome:
+  human:
+    fasta: /path/to/GRCh38.genome.fa
+    bowtie2_index: /path/to/GRCh38_index
+    mappability_bigwig: /path/to/hg38.k100.umap.bw
+  mouse:
+    fasta: /path/to/GRCm39.genome.fa
+    bowtie2_index: /path/to/GRCm39_index
+    mappability_bigwig: /path/to/GRCm39_umap.bigWig
+
+analysis:
+  resolution: 80
+  bin_size: 1Mb
+  species: human
+
+medicc2:
+  jobs: 8
+  normal_name: Diploid_Root
+  extra_args: "--plot both --total-copy-numbers"
+
+cellranger:
+  human:
+    transcriptome: /path/to/refdata-gex-GRCh38-2024-A
+  mouse:
+    transcriptome: /path/to/refdata-gex-GRCm39-2024-A
+  localcores: 30
+  localmem: 64

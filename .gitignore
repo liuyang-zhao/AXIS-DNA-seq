@@ -1,0 +1,36 @@
+# Data and results
+data/bulk/*
+!data/bulk/.gitkeep
+data/Spatial_DNA/*
+!data/Spatial_DNA/.gitkeep
+!data/Spatial_DNA/*.spatial_barcodes_location.csv
+data/Spatial_RNA/
+!data/samples/
+!data/samples/**
+rawdata/
+processed/
+tmp/
+logs/
+results/
+tests/
+Rplots.pdf
+*.bam
+*.bai
+*.fastq.gz
+*.fq.gz
+
+# R / Python
+.Rhistory
+.RData
+.Rproj.user
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+config/config.yaml

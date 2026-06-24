@@ -1,0 +1,18 @@
+sample_name	sample_id	species	accession	assay	sample_title	barcode_path
+H01	16_1	human	HRA019095	DNA-seq	LSIL	data/Spatial_DNA/16_1.spatial_barcodes_location.csv
+H02	18_1	human	HRA019095	DNA-seq	HCC	data/Spatial_DNA/18_1.spatial_barcodes_location.csv
+H03	11_2	human	HRA019095	DNA-seq	CRC1	data/Spatial_DNA/11_2.spatial_barcodes_location.csv
+H04	11_1	human	HRA019095	DNA-seq	CRC2	data/Spatial_DNA/11_1.spatial_barcodes_location.csv
+H05	17_1	human	HRA019095	DNA-seq	CRC_biopsy_D	data/Spatial_DNA/17_1.spatial_barcodes_location.csv
+H06	20_3	human	HRA019095	DNA-seq	CRC_biopsy_C	data/Spatial_DNA/20_3.spatial_barcodes_location.csv
+H07	20_1	human	HRA019095	DNA-seq	CRC_biopsy_P	data/Spatial_DNA/20_1.spatial_barcodes_location.csv
+H08	20_2	human	HRA019095	DNA-seq	CRC_biopsy_L	data/Spatial_DNA/20_2.spatial_barcodes_location.csv
+H09	19_3	human	HRA019095	DNA-seq	CRC_surgical_C	data/Spatial_DNA/19_3.spatial_barcodes_location.csv
+H10	19_1	human	HRA019095	DNA-seq	CRC_surgical_P	data/Spatial_DNA/19_1.spatial_barcodes_location.csv
+H11	19_2	human	HRA019095	DNA-seq	CRC_surgical_L	data/Spatial_DNA/19_2.spatial_barcodes_location.csv
+H12	total_test10	human	HRA019095	DNA-seq	CRC	data/Spatial_DNA/total_test10.spatial_barcodes_location.csv
+H13	1_3	human	HRA019095	RNA-seq	CRC	data/Spatial_RNA/1_3/position_1_3.txt
+M01	11_4	mouse	CRA044730	DNA-seq	normal cerebellum	data/Spatial_DNA/11_4.spatial_barcodes_location.csv
+M02	13_1	mouse	CRA044730	DNA-seq	lung tumor	data/Spatial_DNA/13_1.spatial_barcodes_location.csv
+M03	12_4	mouse	CRA044730	DNA-seq	subcutaneous tumor (rep1)	data/Spatial_DNA/12_4.spatial_barcodes_location.csv
+M04	12_2	mouse	CRA044730	DNA-seq	subcutaneous tumor (rep2)	data/Spatial_DNA/12_2.spatial_barcodes_location.csv
